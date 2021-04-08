@@ -23,7 +23,7 @@ Since the goal is to divide the behavioral variables of credit card users into s
 
 **Hierarchical clustering:**<br/>
 The first model is Hierarchical clustering. The dataset for our group is large, therefore, we will use a dendrogram to visualize the hierarchical relationship. We calculated the distances and then entered it into different linkage methods. We first try linkage methods: Euclidean, Cosine, and Manhattan. The result is shown below which shows that Cosine is the best among these three. <br/>
-![linkage methods](BA820-Credit-Card-Project/pic1.png)<br/>
+![linkage methods](https://github.com/PDemacker/BA820-Credit-Card-Project/blob/main/pic1.png)<br/>
 And we also noticed that there are outliers in our dataset. Then, we apply the methods of single, complete, average and ward based on Cosine, with the result of graphs shown in below.<br/>
 The results of 6 clusters with average methods are the best among others. The reason we chose the average method with 6 clusters is because it forms clusters with a lower y-axis compared with other methods. And each cluster under average method is more obvious and equally distributed.<br/>
 Then we apply Hierarchical clustering with 6 clusters to fit the silhouette analysis. According to the graph below, it can be known that there are negative values in most clusters. The reason for that is because some of the data goes to the wrong cluster. Also, it failed to distinguish the boundary between clusters. One of the clusters is much bigger than other clusters. The number under each cluster does not occur evenly across all clusters. Finally, the silhouette score for Hierarchical clustering with 6 clusters is 0.189.<br/>
