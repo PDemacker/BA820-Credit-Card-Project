@@ -41,5 +41,6 @@ After choosing the KMeans clustering method, we assign each credit card to a clu
 1. Cluster 0: Has the highest values in purchases, oneoff_purchases, installments_purchases, off_purchases_frequency, purchases_trx, and tenure.
 2. Cluster 1: Has the lowest values in balance_frequency, credit_limit, payments, and minimum_payment. 
 3. Cluster 2: Has the highest values in cash_advance, cash_advance_trx, and cash_advance_frequency.<br/>
+
 The credit card holders who are in cluster 0 are more likely to spend money and purchases no matter if they pay by one off or installments. The bank can offer and advertise those credit card holders about their credit card purchases reward or cashback to increase their purchases and spending.  In cluster 1, the credit card holders seem to have set aside all the money and have not spent much on purchases. The bank may offer them a savings account where they can earn a higher interest rate. Credit card holders under cluster 2 have the highest value in cash advance; therefore, they are more likely to borrow money to spend. The bank can offer them a longer repayment term and reduce the minimum monthly repayment.
 
